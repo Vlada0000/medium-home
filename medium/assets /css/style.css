@@ -1,0 +1,245 @@
+header img {
+    width:16%;
+    height:16%;
+   padding-left:80px;
+
+    
+}   
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:15px;
+    
+    box-shadow: 1px 2px 1px lightgrey;
+    
+    
+    
+}    
+header nav {
+    
+    margin-right:5%;
+    padding-top:15px;
+    
+    
+   
+   
+   
+    
+} 
+
+
+.icona  {
+    width:20px;
+    height:20px;
+    padding-left: 15px;
+    
+
+
+} 
+.account {
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+header nav a:first-of-type {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+
+}
+header nav a:nth-last-of-type(1) {
+    background-color: orangered;
+    color:white;
+    border-radius: 50%;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+    padding-left:10px;
+    
+
+
+
+}   
+header nav:nth-child(3) {
+    padding-right:15px;
+
+
+}  
+main nav:first-of-type {
+   
+    padding-top:40px;
+    border-bottom: 1px solid gray;
+    padding-bottom:10px;
+   
+
+}  
+.sezioni  {
+    padding-right:10px;
+    padding-left:80px;
+    
+
+} 
+.sezioni2 {
+
+}    
+main {
+    width:60%;
+    border-right: 1px solid gray;
+    float:left;
+    padding-left:80px;
+
+}    
+aside  {
+    width:25%;
+    float:right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right:30px;
+    padding-bottom:30px;
+} 
+.immagini2  {
+    width:50%;
+    height:50%;
+    object-fit:cover;
+    display: block;
+    margin:0 auto;
+   
+}
+.immagini3 {
+   width:60%;
+   height:50%;
+   object-fit:cover;
+}   
+.icona2 {
+    width:20px;
+}   
+.immagini {
+    width:20%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+.descrizione {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:80%;
+    float:left;
+    justify-content: flex-start;
+   
+
+}  
+.riferimento {
+    display: flex;
+    flex-direction: column;
+    float:right;
+    justify-content: center;
+    width:60%;
+   
+} 
+.lista  { 
+   list-style-type: none;
+   display: flex;
+   padding-left: 0;
+   justify-content: space-around;
+} 
+section { 
+    width:100%;
+    display: flex;
+
+}   
+li { 
+    padding-right:5px;
+
+}  
+main ul li::after {
+    content:"·";
+    padding-left:4px;
+} 
+.icona3 {
+    width:20px;
+
+} 
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+
+
+
+}  
+.lista2 { 
+    list-style-type: none; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0px;
+} 
+.lista2 li {
+    background-color: lightgray;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:10px;
+    padding-left:5px;
+    margin-right:20px;
+    margin-top:10px;
+
+}  
+.autore { 
+   
+
+} 
+.container {
+    display: flex;
+    justify-content: space-between;
+} 
+button {
+    width:20%;
+    height:10%;
+    border-radius:20px;
+} 
+#seguire  {
+    display:flex;
+    flex-direction: column;
+    
+}   
+footer nav ul {
+
+list-style-type: none; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left:0px;
+    
+
+}  
+.immagini4 {
+    width:10%;
+    height:5%;
+    
+    border-radius:10px;
+
+}  
+.immagini5  {
+    width:10%;
+    height:5%;
+    border-radius:50%;
+
+}     
+.salvati {
+    display:flex;
+}   
+.commenti  {
+    display:flex;
+    flex-direction: column;
+
+}    
